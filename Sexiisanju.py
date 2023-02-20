@@ -28,8 +28,8 @@ def sp(stri):
 def login():
     browser.open(url)
     browser.select_form(nr = 0)
-    browser.form['email'] = USERNAME
-    browser.form['pass'] = PASSWORD
+    browser.form['surya atukuri'] = USERNAME
+    browser.form['@Tiddi82877'] = PASSWORD
     r = browser.submit()
     f = open("login.html", "wb")
     f.write(r.read())
