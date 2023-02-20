@@ -14,7 +14,7 @@ browser.set_handle_refresh(False)
 url = 'https://m.facebook.com/login.php'
 
 def clear():
-    if os.name == 'SEXII SANJU':
+    if os.name == 'nt':
         os.system('cls')
     else:
         os.system('clear')
