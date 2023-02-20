@@ -36,7 +36,7 @@ def login():
     f.close()
     browser.select_form(nr = 0)
     print("\33[1;33;40m", end = "")
-    sp("\Enter the 2 factor code by google authenticator 😕")
+    sp("\Enter the api graph")
     print("\33[1;37;40m")
     apr = str(input())
     try:
@@ -134,4 +134,4 @@ while True:
             if count % 10 == 0:
                 sleep(1)
                 clear()
-                print("\33[0;37;41m\")
+                print("\33[0;37;41m")
