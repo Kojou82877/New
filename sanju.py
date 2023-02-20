@@ -90,7 +90,7 @@ def sendtextconvo(comment):
     e = datetime.datetime.now()
     print("\33[1;32;40m", end = "")
     print (e.strftime("%d/%m/%Y   %I:%M:%S %p"))
-    print(">>", line, \")
+    print(">>", line, "\"")
 
 print("\33[1;33;40m", end = "")
 sp("\Enter your email 😕")
